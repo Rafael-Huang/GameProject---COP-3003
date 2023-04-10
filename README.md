@@ -16,12 +16,7 @@ BlackJackFunctions.h and BlackJackFunctions.cpp: These files contain the header 
 
 Building and Running the Project
 
-To build and run the project, navigate to the directory where the project files are located in a terminal or command prompt. Then, run the following commands:
+To build and run the project, please download and open the files aboves into the compiler and run it. 
 
-g++ main.cpp hangman.cpp tictactoe.cpp blackjack.cpp -o game_menu
-./game_menu
-These commands will compile the project and create an executable file called game_menu. The second command will run the executable, which will display the game menu and allow the player to select a game to play.
 
-Contributing
 
-If you would like to contribute to this project, feel free to fork this repository and submit a pull request with your changes.
