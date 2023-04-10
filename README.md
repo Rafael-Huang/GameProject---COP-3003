@@ -1,4 +1,5 @@
 Game Menu Project
+
 This project is a game menu written in C++ that uses ASCII art to display the menu options. The menu includes three different games: Hangman, Tic Tac Toe, and Blackjack. The project includes separate header files and function files for each game, as well as a main function file that displays the menu and allows the player to select a game to play.
 
 Getting Started
