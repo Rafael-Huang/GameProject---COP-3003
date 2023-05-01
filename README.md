@@ -18,5 +18,13 @@ BlackJackFunctions.h and BlackJackFunctions.cpp: These files contain the header 
 
 To build and run the project, please download and open the files aboves into the compiler and run it. 
 
+# Project Reason
 
+I decided to build this project, because I wanted to get some experience on how to build games, and to see if that was really what I was looking for as a career.
+
+# List of Maintainers
+
+Rafael Huang(me)
+
+Github handle: Rafael-Huang
 
