@@ -22,17 +22,15 @@ int main()
 {
     
     
-    Display obj0;
-    TicTacToe obj1;
-    HangMan obj2;
-    
+    Display obj0;    // Class object for Displaying asc art option.
+    TicTacToe obj1;  // Class object for Tic Tac Toe game.
+    HangMan obj2;    // Class object for Hnag Man game.
+     
     int playerChoice; // variable that hold player's game of choice
     char playAgainTTT, playAgainHangman;
     
     obj0.welcome();
 
-    
-    
     obj0.displayTicTacToe();
     std::cout<<" \n\n\n";
     
@@ -41,6 +39,7 @@ int main()
     
     obj0.displayQuit();
     std::cout<<"\n\n\n";
+    
     
     //While loop to make sure, user input a valid number to play the game of he/she choice, otherwise, invalid input, try again.
     while(true){
@@ -54,6 +53,7 @@ int main()
             while(true){
                 std::cout <<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
                 
+                //Ask for both players name, due to this game being a two player game.
                 std::cout<<"Player 1, Enter your name: ";
                 std::cin>>obj1.player1;
                 std::cout<<"Player 2, Enter your name: ";
@@ -72,7 +72,7 @@ int main()
                 }
                 
            
-                
+                // Condition fo if and else to check if player1 or player2 won the game, or if it was a draw.
                 if(obj1.symbol == 'x' && obj1.tie == false)
                 {
                     std::cout<<obj1.player2<<" WON!!!"<<std::endl;
@@ -99,7 +99,7 @@ int main()
             }
         }
             
-        
+        //Condition which will happen if user choose option 2, where he/she will e playing HangMan.
         else if(playerChoice == 2)
         {
             std::cout <<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
